@@ -22,14 +22,18 @@
         <span class="com">COM</span>
     </div>
     <div class="buttons">
-        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand-back-fist"></i></button>
-        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand"></i></i></button>
-        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand-scissors"></i></i></button>
+        <button class="bn" onclick="game(this.value)" value="steen"><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button class="bn" onclick="game(this.value)" value="papier"><i class="fa-regular fa-hand"></i></i></button>
+        <button class="bn" onclick="game(this.value)" value="schaar"><i class="fa-regular fa-hand-scissors"></i></i></button>
     </div>
-    <div class="challenge">
-    <div class="JouwObject"><i class="fa-regular fa-hand"></i></div>
-    <div class="resultaat">Je hebt gewonnen!</div>
-    <div class="ComObject"><i class="fa-regular fa-hand-back-fist"></i></div>
+    <div id="challenge">
+    <div id="you">
+    <div id="JouwObject"><i class="fa-regular fa-hand"></i></div>
+    </div>
+    <div id="resultaat"><p>Je hebt gewonnen!</p></div>
+    <div id="com">
+    <div id="ComObject"><i class="fa-regular fa-hand-back-fist"></i></div>
+</div>
 </div>
 </div>
     <script src="app.js"></script>

@@ -87,3 +87,22 @@ header h1{
    border-color: white;
    color: white;
 }
+#challenge{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 540px;
+    height: 40%;
+    display: none;
+}
+#you{
+    position: relative;
+    width: 37.5%;
+    font-size: 50px;
+}
+#com{
+    position: relative;
+    width: 37.5%;
+    font-size: 50px;
+}
