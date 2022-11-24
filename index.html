@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Game</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <div id="game">
-       <h1 class="spel1" id="speeler"></h1>
-       <h1 class="spel2" id="computer"></h1>
-       <h1 class="spel3" id="resultaat"></h1>
-
-       <button class="keuzeknop">STEEN</button>
-       <button class="keuzeknop">PAPIER</button>
-       <button class="keuzeknop">SCHAAR</button>
-    </div>
-    <script src="app.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/542fd3120f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <h1>Steen Papier Schaar</h1>
+    </header>
+    <div class="container">
+    <div class="score-container">
+        <span class="user">JIJ</span>
+        <span id="score">0 - 0</span>
+        <span class="com">COM</span>
+    </div>
+    <div class="buttons">
+        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand"></i></i></button>
+        <button class="bn" onclick="" value=""><i class="fa-regular fa-hand-scissors"></i></i></button>
+    </div>
+    <div class="challenge">
+    <div class="JouwObject"><i class="fa-regular fa-hand"></i></div>
+    <div class="resultaat">Je hebt gewonnen!</div>
+    <div class="ComObject"><i class="fa-regular fa-hand-back-fist"></i></div>
+</div>
+</div>
+    <script src="app.js"></script>
 </body>
 </html>
