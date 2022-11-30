@@ -1,0 +1,10 @@
+game
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	renamed:    app.js -> p2-website-javascript/app.js
+#	renamed:    index.html -> p2-website-javascript/index.html
+#	renamed:    style.css -> p2-website-javascript/style.css
+#

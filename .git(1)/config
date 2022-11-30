@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "javascript-game"]
+	url = https://github.com/Beau19/p2-website-javascript.git
+	fetch = +refs/heads/*:refs/remotes/javascript-game/*
+[remote "Beau19/javascriptgame"]
+	url = https://github.com/Beau19/p2-website-javascript.git
+	fetch = +refs/heads/*:refs/remotes/Beau19/javascriptgame/*
+[branch "javascriptgame/master"]
+	remote = Beau19/javascriptgame
+	merge = refs/heads/master
+[remote "javascriptgame"]
+	url = https://github.com/Beau19/p2-website-javascript.git
+	fetch = +refs/heads/*:refs/remotes/javascriptgame/*
